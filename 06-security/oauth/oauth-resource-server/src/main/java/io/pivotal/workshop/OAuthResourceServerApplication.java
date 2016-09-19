@@ -9,6 +9,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 public class OAuthResourceServerApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(OAuthResourceServerApplication.class, args);
 	}
 }

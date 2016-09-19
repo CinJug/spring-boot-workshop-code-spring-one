@@ -9,6 +9,7 @@ public class ResourceController {
 
     @GetMapping("/")
     public String helloSecured() {
+
         return "Hello - Secured";
     }
 
